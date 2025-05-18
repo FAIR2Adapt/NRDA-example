@@ -1,0 +1,95 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "about": [
+                {
+                    "@id": "http://dd.eionet.europa.eu/vocabulary/eurostat/fos07/FOS1"
+                }
+            ],
+            "author": [
+                "annef@simula.no"
+            ],
+            "cite-as": "Fouilloux Anne, Relative humidity over small sub-region, NIRD RDA, 2025. https://doi.org/10.82969/2025.pitlyjt0.",
+            "contentLanguages": "https://iso639-3.sil.org/code/eng",
+            "datePublished": "2025-05-18",
+            "description": "rh_mean_july_1980_2018_small.nc\n\nRelative humidity (%) monthly values for July (year 1980 and 2018).",
+            "hasPart": [
+                {
+                    "@id": "https://data.archive-sandbox.sigma2.no/dataset/3888d382-6269-479c-9448-701ad6e3fa74/download/rh_mean_july_1980_2018_small.nc"
+                }
+            ],
+            "identifier": "https://doi.org/10.82969/2025.pitlyjt0",
+            "keywords": [],
+            "license": {
+                "@id": "https://creativecommons.org/licenses/by/4.0/"
+            },
+            "location": {
+                "@id": "2 44.625, 6 44.625, 6 50.375, 2 50.375, 2 44.625",
+                "@type": "GeoShape",
+                "polygon": "2 44.625, 6 44.625, 6 50.375, 2 50.375, 2 44.625"
+            },
+            "name": "Relative humidity over small sub-region",
+            "publisher": {
+                "@id": "https://wikidata.org/Q12008197"
+            },
+            "temporalCoverage": "1980-06-30T21:00:00.000Z/2018-06-30T21:00:00.000Z",
+            "themes": [
+                {
+                    "@id": "https://vocab.nerc.ac.uk/standard_name/relative_humidity"
+                },
+                {
+                    "@id": "https://www.eionet.europa.eu/gemet/en/inspire-theme/ac"
+                }
+            ],
+            "title": "Relative humidity over small sub-region",
+            "url": "https://doi.org/10.82969/2025.pitlyjt0",
+            "version": 1
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            },
+            "creator": {
+                "@id": "https://wikidata.org/Q12008197"
+            }
+        },
+        {
+            "@id": "https://creativecommons.org/licenses/by/4.0/",
+            "@type": "CreativeWork",
+            "description": "Creative Commons Attribution 4.0",
+            "name": "CC-BY-4.0"
+        },
+        {
+            "@id": "annef@simula.no",
+            "@type": "Person",
+            "affiliation": {
+                "@id": "00vn06n10"
+            },
+            "familyName": "Fouilloux",
+            "givenName": "Anne"
+        },
+        {
+            "@id": "https://wikidata.org/Q12008197",
+            "@type": "Organization",
+            "name": "NIRD RDA",
+            "url": "https://wikidata.org/Q12008197"
+        },
+        {
+            "@id": "https://data.archive-sandbox.sigma2.no/dataset/3888d382-6269-479c-9448-701ad6e3fa74/download/rh_mean_july_1980_2018_small.nc",
+            "@type": "File",
+            "contentSize": "29619",
+            "dateModified": "2025-05-18T18:29:34.633820000 +0200",
+            "encodingFormat": "application/x-hdf; charset=binary",
+            "name": "/archive_public/3888d382-6269-479c-9448-701ad6e3fa74/rh_mean_july_1980_2018_small.nc",
+            "s3_url": "s3://archive-sandbox-ro/3888d382-6269-479c-9448-701ad6e3fa74/rh_mean_july_1980_2018_small.nc"
+        }
+    ]
+}

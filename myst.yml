@@ -4,9 +4,9 @@ extends:
   - https://raw.githubusercontent.com/FAIR2Adapt/fair2adapt-helpdesk/main/fair2adapt.yml
 project:
   id: ea3ac578-ab0a-47c8-a10a-9d06678a9450
-  title: Case Study Template to be reused for any new FAIR2Adapt Case Study
-  short_title: Case Study Template
-  abstract: Notebooks developed for supporting stakeholders of a given case study.
+  title: Examples for showing how to access data from the Norwegian Research Data Archive
+  short_title: Access to NRDA data collection
+  abstract: Notebooks developed for supporting stakeholders of the FAIR2Adapt project.
   subject: template
   keywords:
     - Modelling
@@ -25,12 +25,12 @@ project:
   date: 2025-16-05
   toc:
     - file: index.md
-    - file: notebooks/notebook.ipynb
+    - file: notebooks/NRDA-RO-crate-explore.ipynb
   exports:
     - format: pdf
       template: curvenote
-      article: notebooks/notebook.ipynb
-      output: exports/notebook.pdf
+      article: notebooks/NRDA-RO-crate-explore.ipynb
+      output: exports/NRDA-RO-crate-explore.pdf
     - format: cff
       type: software
       version: v2.0.0
